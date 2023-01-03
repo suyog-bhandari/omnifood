@@ -11,7 +11,11 @@
 .grid{
     display: grid;
     row-gap: 9.6rem;
-    column-gap: 6.4rem;   
+    column-gap: 6.4rem;  
+}
+
+.grid:not(:last-child){
+    margin-bottom: 9.6rem;
 }
 
 .grid--2-cols{
@@ -111,6 +115,29 @@
     border-bottom: 1px solid transparent;
 }
 
+.list{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+
+.list-item{
+    font-size: 1.8rem;
+    align-items: center;
+    display: flex;
+    gap: 1.6rem;
+}
+
+.list-icon{
+    width: 3rem;
+    height: 3rem;
+    color: #e67e22;
+}
+
+
 /* HELPER CLASSES */
 
 .margin-right-sm{
@@ -128,3 +155,4 @@ strong{
 .center-text{
     text-align: center;
 }
+

@@ -1,0 +1,58 @@
+/* rem and em do NOT depend on html font-size in media queries*/
+
+
+
+/* ****************************** */
+/* BELOW 1344px (Smaller desktops) */
+/* ****************************** */
+
+
+
+@media(max-width:84em) {
+    .hero {
+        max-width: 120rem;
+    }
+
+    .heading-primary{
+        font-size: 4.4rem;
+    }
+
+    /* .gallery{
+        grid-template-columns:repeat(2,1fr)
+    } */
+}
+
+/* ****************************** */
+/* BELOW 1344px (Landscape Tablets) */
+/* ****************************** */
+
+@media (max-width:75em) {
+    html{
+        font-size: 40% ;
+    }
+
+    .secondary-heading{
+        font-size: 3.6rem;
+    }
+
+    .heading-tertiary{
+        font-size: 2.4rem;
+    }
+
+    .grid{
+        column-gap: 4.8rem;
+        row-gap: 6.4rem;
+    }
+}
+
+
+
+/* ****************************** */
+/* HERO SECTION */
+/* ****************************** */
+
+@media (max-width:59em) {
+    html{
+        font-size: 35%;
+    }
+}

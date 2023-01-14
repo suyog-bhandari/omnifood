@@ -1,0 +1,151 @@
+/* 
+---01 TYPOGRAPHY SYSTEM
+
+-font sizes(px)
+10 / 12 /14 / 16 / 18 / 20/ 24 / 30/ 36 /44 /52 /62 / 74 /86 /98
+
+-font weights: 
+Default:400
+medium:500
+semi:600
+bold:700
+
+-line heights:
+Default:1
+1.5 Small
+1.6 Paragraph Default
+1.2
+
+-letter spacing
+-0.5px
+0.75px
+
+---02 COLORS
+
+-Primary: #1957ff
+
+#e8eeff
+
+-Tints:
+   #fdf2e9; 
+
+     #cf711f;
+-Shades:
+-Accents:
+-Greys:
+#555
+#333
+#6f6f6f(lighesr frey allowed on fdf2e9
+
+ ---05 SHADOWS
+
+
+ ---06 BORDER-RADIUS
+ border-radius: 9px;
+
+ ---07 WHITESPACE
+-spacing system(px)
+2 / 4 / 8 / 12 / 16 /24 / 32 / 48 / 64 / 80 / 96 /128
+/*  */
+
+.container{
+  margin:0 15rem ;
+}
+
+.heading-primary{
+  font-size: 4.4rem;
+  font-weight:700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 2.4rem;
+}
+
+.secondary-heading{
+  font-size: 3rem ;
+  color: #333;
+  margin-bottom: 1.2rem;
+}
+
+.tertiary-heading{
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.2rem;
+}
+
+.span-heading{
+  color: #725dbe;
+  font-weight: 500;
+  font-size:1.6rem ;
+}
+
+.big-span{
+  color: #806dc5;
+  font-size: 7rem;
+  float: left;
+  line-height: 0.7;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading-sec{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid{
+  display: grid;
+}
+
+.grid--2-cols{
+  grid-template-columns: repeat(2,1fr);
+}
+.grid--3-cols{
+  grid-template-columns: repeat(3,1fr);
+}
+.grid--4-cols{
+  grid-template-columns: repeat(4,1fr);
+}
+.grid--5-cols{
+  grid-template-columns: repeat(5,1fr);
+}
+.grid--8-cols{
+  grid-template-columns: repeat(8,1fr);
+}
+
+.grid--2-rows{
+  grid-template-rows: repeat(3,1fr);
+}
+
+.btn{
+    padding: 0.7rem 2rem;
+    border-radius: 9px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border: 1px solid #725dbe;
+    transition: all 0.3s ease-in;
+}
+.btn:hover,
+.btn:active{
+    padding: 0.7rem 2rem;
+    border-radius: 9px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.75);
+}
+
+.btn-hero{
+  background-color: #725dbe;
+  color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 9px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  transition: all 0.3s ease-in;
+}
+
+.btn-hero:hover,
+.btn-hero:active{
+  background-color: #806dc5;
+}
